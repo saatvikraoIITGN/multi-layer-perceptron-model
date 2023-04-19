@@ -1,4 +1,4 @@
-# yeeshu-saatvik-assignment5 
+# ryeeshu-saatvik-assignment5 
 
 ## Question - 1
 We observe that as we increase the complexity of the model, both the **training loss** and **training accuracy** increase, indicating that the model is fitting the training data better. Similarly, the **testing accuracy** also improves as we increase the complexity of the model.
