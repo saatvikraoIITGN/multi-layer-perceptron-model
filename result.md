@@ -2,7 +2,7 @@ vgg1_tb.py:
 
 Found 160 images belonging to 2 classes.
 
-Found 40 images belonging to 2 classes. 
+Found 40 images belonging to 2 classes.  
 
 Epoch 1/20
 8/8 - 117s - loss: 4.0430 - accuracy: 0.5063 - val_loss: 0.7600 - val_accuracy: 0.6500 - 117s/epoch - 15s/step
