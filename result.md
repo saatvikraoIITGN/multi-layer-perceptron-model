@@ -1,6 +1,9 @@
 vgg1_tb.py:
+
 Found 160 images belonging to 2 classes.
-Found 40 images belonging to 2 classes.
+
+Found 40 images belonging to 2 classes. 
+
 Epoch 1/20
 8/8 - 117s - loss: 4.0430 - accuracy: 0.5063 - val_loss: 0.7600 - val_accuracy: 0.6500 - 117s/epoch - 15s/step
 Epoch 2/20
@@ -42,17 +45,26 @@ Epoch 19/20
 Epoch 20/20
 8/8 - 76s - loss: 0.5594 - accuracy: 0.7000 - val_loss: 0.7566 - val_accuracy: 0.5500 - 76s/epoch - 9s/step
 
-Training time:  1749.3782160282135
+
+Training time:  1749.3782160282135 
+
 Training loss:  0.5594148635864258
+
 Training accuracy:  69.9999988079071
+
 1/1 - 6s - loss: 0.7566 - accuracy: 0.5500 - 6s/epoch - 6s/step
+
 Test accuracy: > 55.000
+
 Number of model parameters:  40961153
 
 ---------------------------------------------------------------------------------------------------------------
 vgg3_tb.py:
+
 Found 160 images belonging to 2 classes.
+
 Found 40 images belonging to 2 classes.
+
 Epoch 1/20
 8/8 - 32s - loss: 0.9135 - accuracy: 0.5250 - val_loss: 0.7023 - val_accuracy: 0.4750 - 32s/epoch - 4s/step
 Epoch 2/20
@@ -99,16 +111,24 @@ Epoch 20/20
 8/8 - 2s - loss: 0.2034 - accuracy: 0.9750 - val_loss: 0.2830 - val_accuracy: 0.9250 - 2s/epoch - 305ms/step
 
 Training time:  80.03491282463074
+
 Training loss:  0.203384131193161
+
 Training accuracy:  97.50000238418579
+
 Test accuracy: > 92.500
+
 Elapsed time:  9.968708515167236
+
 Number of model parameters:  10333505
 
 ---------------------------------------------------------------------------------------------------------------------
-vgg3_data_aug_tb.py:     
+vgg3_data_aug_tb.py:   
+
 Found 160 images belonging to 2 classes.
+
 Found 40 images belonging to 2 classes.
+
 Epoch 1/25
 3/3 - 17s - loss: 0.7062 - accuracy: 0.5562 - val_loss: 0.6984 - val_accuracy: 0.5250 - 17s/epoch - 6s/step
 Epoch 2/25
@@ -165,16 +185,24 @@ Epoch 25/25
 3/3 - 3s - loss: 0.5282 - accuracy: 0.7375 - val_loss: 0.5473 - val_accuracy: 0.7000 - 3s/epoch - 1s/step
 
 Training time:  105.11191153526306
+
 Training loss:  0.5282458066940308
+
 Training accuracy:  73.7500011920929
+
 1/1 - 1s - loss: 0.5473 - accuracy: 0.7000 - 691ms/epoch - 691ms/step
+
 Test accuracy: > 70.000
+
 Number of model parameters:  10333505
 
 -----------------------------------------------------------------------------------------------------------------------
 vgg16 with transfer learning:
+
 Found 160 images belonging to 2 classes.
+
 Found 40 images belonging to 2 classes.
+
 Epoch 1/10
 3/3 - 104s - loss: 5.3449 - accuracy: 0.5813 - val_loss: 1.4019 - val_accuracy: 0.9000 - 104s/epoch - 35s/step
 Epoch 2/10
@@ -197,16 +225,24 @@ Epoch 10/10
 3/3 - 6s - loss: 0.0216 - accuracy: 0.9937 - val_loss: 0.9799 - val_accuracy: 0.9750 - 6s/epoch - 2s/step
 
 Training time:  151.68954753875732
+
 Training loss:  0.02160074934363365
+
 Training accuracy:  99.37499761581421
+
 1/1 - 0s - loss: 0.9799 - accuracy: 0.9750 - 428ms/epoch - 428ms/step
+
 Test accuracy: > 97.500
+
 Number of model parameters:  17926209
 
 -----------------------------------------------------------------------------------------------------------
 mlp_tb.py:
+
 Found 160 images belonging to 2 classes.
+
 Found 40 images belonging to 2 classes.
+
 Epoch 1/15
 8/8 - 15s - loss: 15.9068 - accuracy: 0.4062 - val_loss: 13.7046 - val_accuracy: 0.5000 - 15s/epoch - 2s/step
 Epoch 2/15
@@ -243,8 +279,13 @@ Epoch 15/15
 8/8 - 3s - loss: 0.2559 - accuracy: 0.9000 - val_loss: 0.2496 - val_accuracy: 0.9250 - 3s/epoch - 390ms/step
 
 Training time:  68.79708528518677
+
 Training loss:  0.2559237778186798
+
 Training accuracy:  89.99999761581421
+
 1/1 - 1s - loss: 0.2496 - accuracy: 0.9250 - 724ms/epoch - 724ms/step
+
 Test accuracy: > 92.500
+
 Number of model parameters:  15370497
