@@ -1,5 +1,11 @@
 # ryeeshu-saatvik-assignment5 
 
+## Collaborators 
+Saatvik Rao
+
+R Yesshu Dhurandhar 
+
+
 ## Table 
 
 | **Models**                             | **Training Time**  | **Training Loss**   | **Training Accuracy** | **Testing Accuracy** | **No. of model parameters** | **No. of epochs** |
